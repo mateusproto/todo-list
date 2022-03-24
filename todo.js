@@ -6,7 +6,7 @@ function Todo({todo,index,remove}){
   return (
     <div className="todo" onClick={handle}>
       {todo.text}
-      <img />
+      <img className="trash" />
     </div>
   );
 }
