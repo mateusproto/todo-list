@@ -51,7 +51,8 @@ code {
 }
 
 .trash{
+  align: left;
   content: url(./garbage-can.png);
-  height: 25px;
+  height: 20px;
   width: 20px;
 }
