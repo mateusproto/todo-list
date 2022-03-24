@@ -52,4 +52,6 @@ code {
 
 .trash{
   content: url(./garbage-can.png);
+  height: 25px;
+  width: 25px;
 }
