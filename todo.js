@@ -4,7 +4,8 @@ function Todo({todo,index,remove}){
     remove(index);
   }
   return (
-    <div className="todo" onClick={handle}>{todo.text}>
+    <div className="todo" onClick={handle}>{todo.text}
+      <img />
     </div>
   );
 }
