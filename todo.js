@@ -3,5 +3,5 @@ function Todo({todo,index,remove}){
     console.log('Ping:',index);
     remove(index);
   }
-  return <div className="todo" onClick={handle}>{todo.text}><img className="trash" src="garbage-can.svg" width="20px" height="20px"></div>
+  return <div className="todo" onClick={handle}>{todo.text}><img className="trash" src="garbage-can.svg" style="width: 20px; height: 20px;"></div>
 }
