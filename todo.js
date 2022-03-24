@@ -1,3 +1,5 @@
+import garbage from './garbage-can.png';
+
 function Todo({todo,index,remove}){
   function handle(){
     console.log('Ping:',index);
@@ -5,7 +7,7 @@ function Todo({todo,index,remove}){
   }
   return (
     <div className="todo" onClick={handle}>{todo.text}>
-      <img src={require('./garbage-can.png')} />
+      <img src={garbage} />
     </div>
   );
 }
