@@ -61,6 +61,6 @@ h1 {
   width: 20px;
 }
 
-.todo:hover + .trash {
+.todo:hover .trash {
   display: block;
 }
