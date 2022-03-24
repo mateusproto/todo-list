@@ -49,3 +49,7 @@ code {
   height: 2.25em;
   font-size: 24px;
 }
+
+.trash{
+  content: url(./garbage-can.png);
+}
